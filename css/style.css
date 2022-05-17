@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,700;1,300&display=swap");
+* {
+  margin: 0rem;
+  padding: 0rem;
+}
+
+* {
+  background-color: black !important;
+}
+
+* {
+  font-family: "Raleway", sans-serif;
+  color: white;
+}
+
+.logo-img {
+  z-index: 3;
+  border-radius: 8vw;
+  width: 10vw;
+  height: 10vw;
+}
+
+.header {
+  align-items: center;
+}
+
+.h1-principal, .h1-pages {
+  font-weight: 700;
+  margin-bottom: 0;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+.h1-pages {
+  text-transform: uppercase;
+}
+
+.menu-img {
+  z-index: 3;
+  width: 6vw;
+  height: 6vw;
+}
+
+.bg-dark {
+  background-color: black !important;
+}
+
+.offcanvas-body {
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+
+.btn-close {
+  margin-bottom: 10%;
+  margin-left: 80%;
+  background-color: white !important;
+}
+
+.navbar-dark {
+  border-color: rbga(0, 0, 0, 0);
+}
+
+.navbar-toggler {
+  border-color: black !important;
+}
+
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 0rem;
+}
+
+.navbar-toggler:hover {
+  opacity: 0.6;
+}
+
+.nav-item a {
+  font-size: 2vw;
+  font-weight: 700;
+}
+
+.nav-item:hover {
+  opacity: 0.6;
+  transform: scale(1.1);
+}
+
+.img-principal {
+  opacity: 0.35;
+}
+
+.info-visit {
+  padding-top: 3vw;
+  justify-content: end;
+}
+
+.info-visit p {
+  font-style: italic;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.section-visit img {
+  width: 40vw;
+  height: 30vw;
+}
+
+.img-product {
+  width: 9rem;
+  height: 15rem;
+}
+
+.img-product-pack {
+  width: 10rem;
+  height: 9rem;
+}
+
+.card {
+  background-color: black;
+}
+
+.card-title {
+  font-weight: 700;
+}
+
+.section-products {
+  background-color: black;
+}
+
+.form-control {
+  color: white;
+}
+
+.footer-redes {
+  padding: 4vw;
+}
+
+.footer-redes p {
+  justify-self: center;
+}
+
+.footer-ul-redes {
+  list-style: none;
+}
+
+.footer-img {
+  width: 2.5vw;
+  height: 2.5vw;
+  border-radius: 0.5vw;
+}
+
+.footer-img :hover {
+  transform: scale(1.5);
+}
+
+@media screen and (min-width: 320px) {
+  .h1-principal, .h1-pages {
+    font-size: 6vw;
+  }
+  .h1-pages {
+    font-size: 5vw;
+  }
+  .header {
+    padding: 2vw;
+  }
+  .logo-img {
+    height: 15vw;
+    width: 15vw;
+  }
+  .menu-img {
+    height: 9vw;
+    width: 9vw;
+  }
+  .btn-close {
+    height: 0.2rem;
+    width: 0.2rem;
+  }
+  .nav-item a {
+    font-size: 4vw;
+    font-weight: 700;
+  }
+  .info-visit p {
+    font-size: 2vw;
+  }
+  .div-map iframe {
+    height: 30vw;
+    width: 55vw;
+  }
+  h2 {
+    font-size: 5vw;
+  }
+  .div-aboutus {
+    padding-left: 7rem;
+  }
+  .img-aboutus {
+    width: 40vw;
+    height: 30vw;
+  }
+  .aboutus-p {
+    font-size: 4vw;
+  }
+  .footer-redes p {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .h1-principal, .h1-pages {
+    font-size: 5vw;
+  }
+  .btn-close {
+    height: 0.7rem;
+    width: 0.7rem;
+  }
+  .header {
+    padding: 2vw;
+  }
+  h2 {
+    font-size: 4vw;
+  }
+  .logo-img {
+    height: 12vw;
+    width: 12vw;
+  }
+  .menu-img {
+    height: 7vw;
+    width: 7vw;
+  }
+  .div-aboutus {
+    padding-left: 10rem;
+  }
+  .img-aboutus {
+    width: 50vw;
+    height: 40vw;
+  }
+  .aboutus-p {
+    font-size: 2.5vw;
+  }
+  .div-map iframe {
+    height: 350px;
+    width: 600px;
+    padding-left: 4rem;
+  }
+  .footer-redes p {
+    font-size: 1vw;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .h1-pages {
+    font-size: 4vw;
+  }
+  .header {
+    padding: 3vw;
+  }
+  .logo-img {
+    height: 11vw;
+    width: 11vw;
+  }
+  .menu-img {
+    height: 6vw;
+    width: 6vw;
+  }
+  .nav-item a {
+    font-size: 2vw;
+    font-weight: 700;
+  }
+  h2 {
+    font-size: 3vw;
+  }
+  .img-aboutus {
+    width: 30vw;
+    height: 20vw;
+    margin-left: 3rem;
+  }
+  .aboutus-p {
+    font-size: 1.5vw;
+  }
+  .info-visit p {
+    font-size: large;
+  }
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 20px #ad964b;
+  }
+  to {
+    text-shadow: 0 0 30px #000000, 0 0 10px #503f07;
+  }
+}
