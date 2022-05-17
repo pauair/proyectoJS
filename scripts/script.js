@@ -47,7 +47,8 @@ productos.forEach(p => {
 productos.forEach(p => {
     document.getElementById(`agregar${p.id}`).addEventListener("click", ()=> {
         carrito.push(p)
-        localStorage.setItem("itemCarrito", JSON.stringify(carrito))
+        let carritoString = JSON.stringify(carrito)
+        localStorage.setItem("itemCarrito", carritoString)
     })
 });
 
