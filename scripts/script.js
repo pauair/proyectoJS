@@ -49,6 +49,17 @@ productos.forEach(p => {
         carrito.push(p)
         let carritoString = JSON.stringify(carrito)
         localStorage.setItem("itemCarrito", carritoString)
+        Swal.fire({
+            icon: 'success',
+            iconColor: 'orange',
+            title: 'Agregado al carrito',
+            width: 600,
+            padding: '3em',
+            color: 'white',
+            background: '#fff',
+            showConfirmButton: false,
+            timer: 1000
+        })
     })
 });
 
