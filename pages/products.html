@@ -42,16 +42,6 @@
                                         PRODUCTOS
                                     </a>
                                 </li>
-                                <!--<li class="nav-item">
-                                    <a class="nav-link active h3" aria-current="page" href="visit.html">
-                                        VISITA
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link active h3" aria-current="page" href="contact.html">
-                                        CONTACTO
-                                    </a>
-                                </li>!-->
                             </ul>
                         </div>
                     </div>
@@ -59,14 +49,20 @@
             </nav>
         </header>
         <section class="section-p">
-            <button id="btn-mostrarCarrito" class="btn btn-outline-warning" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Mostrar carrito</button>
+            <div class="row justify-content-center">
+                <button id="btn-mostrarCarrito" class="btn btn-outline-warning col-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Mostrar carrito</button>
+            </div>
+            <!--Carrito de compras-->
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                 <div class="offcanvas-header">
-                    <h5 id="offcanvasRightLabel">Tu carrito</h5>
+                    <h5 id="offcanvasRightLabel">MI CARRITO</h5>
                     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div id="mostrarCarrito" class="offcanvas-body p-4 m-3">
                 </div>
+                <p class="card-title" id="totalCarrito">Total: 0 UYU</p>
+                <button id="btn-finalizarCompra" class="btn btn-outline-warning" type="button">Finalizar compra</button>
+                <button id="btn-vaciarCarrito" class="btn btn-outline-secondary" type="button">Vaciar carrito</button>
             </div>
             <div id="section-products" class="row row-cols-1 row-cols-lg-3 g-4 p-3 m-3"> </div>
         </section>
